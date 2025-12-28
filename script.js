@@ -1,5 +1,5 @@
 let db = null;
-const DB_NAME = 'ProductsDB'
+const DB_NAME = 'Products'
 const DB_VERSION = 1
 const STORE_NAME = 'products'
 
@@ -316,4 +316,5 @@ document.addEventListener('DOMContentLoaded', async function() {
 window.uploadPhoto = uploadPhoto;
 window.removePhoto = removePhoto;
 window.deleteProductFromDB = deleteProductFromDB;
+
 window.addSampleProducts = addSampleProducts
